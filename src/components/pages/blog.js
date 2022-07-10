@@ -40,8 +40,6 @@ class Blog extends Component {
         }).catch(error => {
             console.log("delete blog error", error);
         });
-
-        event.preventDefault();
     }
 
     handleSuccessfullNewBlogSubmission(blog) {
