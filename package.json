@@ -2,6 +2,11 @@
   "name": "nerea-corrales-react-portfolio",
   "version": "1.0.0",
   "description": "Personal portfolio app built in React",
+  "engines": {
+    "node" : "14.19.1",
+    "npm" : "6.14.16"
+  },
+
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
